@@ -54,4 +54,9 @@ Si desea contribuir a este proyecto, siga los siguientes pasos:
 5. Haga push de los cambios a la rama (`git push origin feature/nueva-caracteristica`).
 6. Abra una solicitud de extracción en este repositorio.
 
-Agradecemos cualquier contribución y estaremos encantados de revisar y fusionar las solicitudes de
+Agradecemos cualquier contribución y estaremos encantados de revisar y fusionar las solicitudes de mejoras
+
+
+## Licencia
+
+Este proyecto se encuentra bajo la Licencia MIT.
