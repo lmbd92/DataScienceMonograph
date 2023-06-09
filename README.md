@@ -39,8 +39,6 @@ Para utilizar el código y los datos de este proyecto, siga los siguientes pasos
 
 python main.py
 
-```
-
 4. Siga las instrucciones presentadas en la interfaz para interactuar con el proyecto y analizar los datos.
 
 ## Contribución
