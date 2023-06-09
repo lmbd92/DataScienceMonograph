@@ -27,6 +27,25 @@ El conjunto de datos proporciona la siguiente información de atributos:
 - CustomerID: Número de cliente asignado de manera única a cada cliente.
 - País: Nombre del país donde reside un cliente.
 
+## Caracteríticas del dataset
+
+- RangeIndex: 1067371 entries, 0 to 1067370
+- Data columns (total 8 columns):
+- dtypes: float64(2), int64(1), object(5)
+- shape: (1067371, 8)
+
+| Columna       | No Nulo | Tipo    |
+|---------------|---------|---------|
+| Invoice       | 1,067,371 | Objeto  |
+| StockCode     | 1,067,371 | Objeto  |
+| Description   | 1,062,989 | Objeto  |
+| Quantity      | 1,067,371 | Entero  |
+| InvoiceDate   | 1,067,371 | Objeto  |
+| Price         | 1,067,371 | Flotante |
+| Customer ID   |   824,364 | Flotante |
+| Country       | 1,067,371 | Objeto  |
+
+
 ## Instrucciones de uso
 
 Para utilizar el código y los datos de este proyecto, siga los siguientes pasos:
