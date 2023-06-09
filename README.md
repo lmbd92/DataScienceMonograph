@@ -48,10 +48,10 @@ python main.py
 Si desea contribuir a este proyecto, siga los siguientes pasos:
 
 1. Realice un fork de este repositorio.
-2. Cree una rama para su nueva característica (git checkout -b feature/nueva-caracteristica).
-3. Realice los cambios necesarios y agregue los archivos modificados (git add).
-4. Realice un commit de sus cambios (git commit -m 'Agregada nueva característica').
-5. Haga push de los cambios a la rama (git push origin feature/nueva-caracteristica).
+2. Cree una rama para su nueva característica (`git checkout -b feature/nueva-caracteristica`).
+3. Realice los cambios necesarios y agregue los archivos modificados (`git add`).
+4. Realice un commit de sus cambios (`git commit -m 'Agregada nueva característica'`).
+5. Haga push de los cambios a la rama (`git push origin feature/nueva-caracteristica`).
 6. Abra una solicitud de extracción en este repositorio.
 
 Agradecemos cualquier contribución y estaremos encantados de revisar y fusionar las solicitudes de
