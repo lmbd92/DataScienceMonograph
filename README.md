@@ -51,7 +51,7 @@ El conjunto de datos proporciona la siguiente información de atributos:
 
 ## Instrucciones de uso
 
-Para utilizar el código y los datos de este proyecto, siga los siguientes pasos:
+Para utilizar el código y los datos de este proyecto DE MANERA LOCAL, siga los siguientes pasos:
 
 1. Clone este repositorio en su máquina local.
 2. Asegúrese de tener instalado Python 3 y las bibliotecas necesarias mencionadas en el archivo de requisitos.
@@ -64,6 +64,15 @@ python main.py
 ```
 
 4. Siga las instrucciones presentadas en la interfaz para interactuar con el proyecto y analizar los datos.
+
+Para utilizar el código y los datos de este proyecto DE MANERA ONLINE, siga los siguientes pasos:
+
+1. Para ejecutar el script/notebook 1 ingrese a este link: [iteracion1ML.ipynb](https://github.com/lmbd92/DataScienceMonograph/blob/main/Notebooks/iteracion1ML.ipynb) para el script/notebook 2 ingrese a este link: [iteracion2ML.ipynb](https://github.com/lmbd92/DataScienceMonograph/blob/main/Notebooks/iteracion2ML.ipynb)
+2. Haga click en el ícono "open in Colab" ubicado en la cabecera del archivo
+3. En el menú de Colab despliegue la opción "Entorno de ejecución" y seguidamente seleccione la opción "Ejecutar todas" / ctrl +F9 (ver imagen)
+
+![Ejecutar Todas](https://github.com/lmbd92/DataScienceMonograph/blob/main/assets/ejecutarTodasColab.png)
+
 
 ## Contribución
 
