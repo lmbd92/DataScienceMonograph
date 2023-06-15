@@ -14,6 +14,9 @@ El objetivo de este curso es desarrollar habilidades en la aplicación de fundam
 
 El caso de estudio seleccionado para este proyecto es el conjunto de datos de venta minorista y mayorista en línea II. Este conjunto de datos contiene todas las transacciones que se produjeron en una tienda minorista en línea registrada y con sede en el Reino Unido entre el 12/01/2009 y el 12/09/2011. La empresa vende principalmente artículos de regalo únicos para toda ocasión, y muchos de sus clientes son mayoristas.
 
+Este fue tomado de: [Online Retail II UCI](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci/code)
+
+
 ## Información de atributos
 
 El conjunto de datos proporciona la siguiente información de atributos:
