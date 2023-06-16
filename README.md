@@ -55,7 +55,7 @@ El conjunto de datos proporciona la siguiente información de atributos:
 
 1. Clone este repositorio en su máquina local.
 2. Asegúrese de tener instalado Python 3 y las bibliotecas necesarias mencionadas en el archivo de requisitos.
-3. Ejecute el archivo principal del proyecto utilizando el intérprete de Python.
+3. Ejecute el archivo principal del proyecto ubicado en el folder "Ejecutables" utilizando el intérprete de Python.
 
 ```bash
 
@@ -71,7 +71,7 @@ python main.py
 2. Haga click en el ícono "open in Colab" ubicado en la cabecera del archivo
 3. En el menú de Colab despliegue la opción "Entorno de ejecución" y seguidamente seleccione la opción "Ejecutar todas" / ctrl +F9 (ver imagen)
 
-![Ejecutar Todas](https://github.com/lmbd92/DataScienceMonograph/blob/main/assets/ejecutarTodasColab.png)
+![Ejecutar Todas](https://github.com/lmbd92/DataScienceMonograph/blob/main/Assets/ejecutarTodasColab.png)
 
 
 ## Contribución
