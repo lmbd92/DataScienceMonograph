@@ -54,7 +54,7 @@ El conjunto de datos proporciona la siguiente información de atributos:
 **Para utilizar el código y los datos de este proyecto DE MANERA LOCAL, siga los siguientes pasos:**
 
 1. Clone este repositorio en su máquina local.
-2. Asegúrese de tener instalado Python 3 y las bibliotecas necesarias mencionadas en el archivo de requisitos "requirements.txt" ubicado en el folder "Ejecutables".
+2. Asegúrese de tener instalado Python 3 y las bibliotecas necesarias mencionadas en el archivo de requisitos "requirements.txt" ubicado en el folder "Ejecutables". Puede usar este archivo para instalar los recursos en su maquina local, con el siguiente comando `pip install -r requirements.txt`
 3. Ejecute el archivo principal del proyecto ubicado en el folder "Ejecutables" utilizando el intérprete de Python.
 
 ```bash
