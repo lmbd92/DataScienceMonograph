@@ -102,7 +102,7 @@ from sklearn.svm import SVR
 Se usará el DF limpio y transformado en la primer iteración
 """
 
-url = 'https://raw.githubusercontent.com/lmbd92/DataScienceMonograph/main/Data/raw-files/online_retail_II_limpio.csv'
+url = 'https://raw.githubusercontent.com/lmbd92/DataScienceMonograph/main/Data/data-raw/online_retail_II_limpio.csv'
 df = pd.read_csv(url)
 df.head()
 

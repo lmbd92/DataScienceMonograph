@@ -63,7 +63,7 @@ warnings.filterwarnings('ignore')
 
 """## 1. Carga de datos"""
 
-url = 'https://raw.githubusercontent.com/lmbd92/DataScienceMonograph/main/Data/raw-files/online_retail_II.csv'
+url = 'https://raw.githubusercontent.com/lmbd92/DataScienceMonograph/main/Data/data-raw/online_retail_II.csv'
 df = pd.read_csv(url)
 df.head()
 
