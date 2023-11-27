@@ -1,52 +1,77 @@
 # README - Proyecto de Ciencia en Datos
 
-Este repositorio contiene el proyecto del curso de Seminario de la Especialización en Analítica y Ciencia de Datos de la Universidad de Antioquia, sede Medellín, correspondiente a la Cohorte 5 del año 2023.
+Este repositorio contiene el material y resultados asociados al proyecto del curso de **Seminario** de la Especialización en Analítica y Ciencia de Datos de la Universidad de Antioquia, sede Medellín, correspondiente a la Cohorte 5 del año 2023. El objetivo final de este proyecto es la elaboración de una propuesta monográfica.
+
+**Tema:** *Desarrollo y Evaluación de Sistemas de Recomendación Con Análisis de sentimientos para la Optimización de Ventas en el Mercado Online: Un Enfoque Analítico de Datos.*
 
 ## Integrantes
-- Lina Beltrán
-- Mario Otero
+- Lina Beltrán - linam.beltran@udea.edu.co
+- Mario Otero - mario.otero@udea.edu.co
 
 ## Objetivo del curso
 
 El objetivo de este curso es desarrollar habilidades en la aplicación de fundamentos metodológicos y conceptuales para la identificación y formulación de proyectos de investigación aplicada en el campo de la analítica y ciencia de datos. Además, se busca explorar consideraciones prácticas de conceptos de analítica de datos en proyectos aplicados, así como promover la elaboración y presentación de una propuesta monográfica.
 
+## Objetivo del proyecto
+
+El objetivo general de esta investigación es concebir, desarrollar y evaluar sistemas de
+recomendación, empleando análisis de sentimientos como componente adicional al de los
+modelos tradicionales de este tipo de sistemas. El propósito se centra en ofrecer a la industria
+e-commerce un respaldo a sus estrategias comerciales basado en técnicas analíticas y de
+aprendizaje automático para el comercio en línea. La delimitación temporal de esta indagación
+abarca desde el año 1996 hasta el año 2018 y se fundamenta en la exploración de conjuntos de
+datos de reseñas de productos proporcionados por Amazon.
+
+
 ## Caso de estudio
 
-El caso de estudio seleccionado para este proyecto es el conjunto de datos de venta minorista y mayorista en línea II. Este conjunto de datos contiene todas las transacciones que se produjeron en una tienda minorista en línea registrada y con sede en el Reino Unido entre el 12/01/2009 y el 12/09/2011. La empresa vende principalmente artículos de regalo únicos para toda ocasión, y muchos de sus clientes son mayoristas.
+Este proyecto se enmarca en el contexto del comercio electrónico, donde las empresas buscan constantemente formas de mejorar sus estrategias de ventas en línea. En particular, se aborda el desafío de optimizar las ventas en un mercado con alta variabilidad e incertidumbre, utilizando como fuente de datos reseñas de productos proporcionados por la plataforma Amazon durante un periodo aproximado de 22 años.
 
-Este fue tomado de: [Online Retail II UCI](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci/code)
+Este fue tomado de: [Amazon Review Data (2018)](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/#complete-data)
 
 
 ## Información de atributos
 
-El conjunto de datos proporciona la siguiente información de atributos:
+### Conjunto de datos de reseñas de productos de Amazon
 
-- Número de factura: Número de factura asignado de manera única a cada transacción. Si el código comienza con la letra 'c', indica una cancelación.
-- StockCode: Código del producto (artículo) asignado de forma única a cada producto distinto.
-- Descripción: Nombre del producto (artículo).
-- Cantidad: Cantidades de cada producto (artículo) por transacción.
-- InvoiceDate: Fecha y hora de la factura, indicando el día y la hora en que se generó una transacción.
-- PrecioUnidad: Precio unitario del producto en libras esterlinas (£).
-- CustomerID: Número de cliente asignado de manera única a cada cliente.
-- País: Nombre del país donde reside un cliente.
+- reviewerID - ID del revisor, por ejemplo, A2SUAM1J3GNN3B.
+- asin - ID del producto, por ejemplo, 0000013714.
+- reviewerName - nombre del revisor.
+- vote - votos útiles de la revisión.
+- style - un diccionario de metadatos del producto, por ejemplo, "Formato" es "Tapa dura".
+- reviewText - texto de la revisión.
+- overall - calificación del producto.
+- summary - resumen de la revisión.
+- unixReviewTime - tiempo de la revisión (tiempo Unix).
+- reviewTime - tiempo de la revisión (sin procesar).
+- image - imágenes que los usuarios publican después de haber recibido el producto.
+
+### Conjunto de datos de metadatos de productos de Amazon
+
+- asin - ID del producto, por ejemplo, 0000031852.
+- title - nombre del producto.
+- feature - características del producto en formato de viñetas.
+- description - descripción del producto.
+- price - precio en dólares estadounidenses (al momento de la extracción).
+- imageURL - URL de la imagen del producto.
+- imageURL - URL de la imagen de alta resolución del producto.
+- related - productos relacionados (también comprados, también vistos, comprados juntos, comprar después de ver).
+- salesRank - información de clasificación de ventas.
+- brand - nombre de la marca.
+- categories - lista de categorías a las que pertenece el producto.
+- tech1 - la primera tabla de detalles técnicos del producto.
+- tech2 - la segunda tabla de detalles técnicos del producto.
+- similar - tabla de productos similares.
+
 
 ## Caracteríticas del dataset
 
-- RangeIndex: 1067371 entries, 0 to 1067370
-- Data columns (total 8 columns):
-- dtypes: float64(2), int64(1), object(5)
-- shape: (1067371, 8)
+- RangeIndex: 4800571 entries, 0 to 4800570
+- Data columns (total 10 columns):
+- dtypes: float64(2), int64(1), object(7)
+- shape: (4800571, 10)
 
-| Columna       | No Nulo | Tipo    |
-|---------------|---------|---------|
-| Invoice       | 1,067,371 | Objeto  |
-| StockCode     | 1,067,371 | Objeto  |
-| Description   | 1,062,989 | Objeto  |
-| Quantity      | 1,067,371 | Entero  |
-| InvoiceDate   | 1,067,371 | Objeto  |
-| Price         | 1,067,371 | Flotante |
-| Customer ID   |   824,364 | Flotante |
-| Country       | 1,067,371 | Objeto  |
+![Ejecutar Todas](Assets/dataInfo.png)
 
 
 ## Instrucciones de uso
